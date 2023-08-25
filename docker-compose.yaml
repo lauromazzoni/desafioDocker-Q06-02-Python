@@ -1,0 +1,7 @@
+version: "3"  
+services:
+  web:
+    image: lauromazzoni/conv-dist
+    build: .
+    ports:
+      - "8086:5000"
